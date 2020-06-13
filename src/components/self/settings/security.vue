@@ -4,9 +4,9 @@
             <!--<div class="other"><span>添加朋友</span></div>-->
             <div class="center">
                 <router-link to="/self/settings" tag="div" class="iconfont icon-return-arrow">
-                    <span>设置</span>
+                    <span></span>
                 </router-link>
-                <span>账号与安全</span>
+                <span>帐号与安全</span>
             </div>
         </header>
         <section>
@@ -15,31 +15,43 @@
                     <div class="weui-cell__bd">微信号</div>
                     <div class="weui-cell__ft">C200812X</div>
                 </div>
-            </div>
-            <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__bd">手机号</div>
                     <div class="weui-cell__ft">18061735962</div>
                 </div>
+            </div>
+            <div class="weui-cells">
+              <div class="weui-cell weui-cell_access">
+                    <div class="weui-cell__bd">微信密码</div>
+                    <div class="weui-cell__ft">已设置</div>
+                </div>
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__bd">邮箱地址</div>
-                    <div class="weui-cell__ft">1047957931@qq.com</div>
+                    <div class="weui-cell__bd">声音锁</div>
+                    <div class="weui-cell__ft">已开启</div>
                 </div>
             </div>
             <div class="weui-cells">
-                <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__bd">声音锁</div>
+              <div class="weui-cell weui-cell_access">
+                    <div class="weui-cell__bd">应急联系人</div>
                     <div class="weui-cell__ft"></div>
                 </div>
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__bd">微信密码</div>
+                    <div class="weui-cell__bd">登录设备管理</div>
                     <div class="weui-cell__ft"></div>
                 </div>
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__bd">帐号保护</div>
+                    <div class="weui-cell__bd">更多安全设置</div>
+                    <div class="weui-cell__ft"></div>
+                </div>
+            </div>
+
+            <div class="weui-cells">
+                <div class="weui-cell weui-cell_access">
+                    <div class="weui-cell__bd">帮朋友冻结微信</div>
                     <div class="weui-cell__ft"></div>
                 </div>
                 <a class="weui-cell weui-cell_access">
+                  <!-- 请求微信安全 -->
                 <!-- <a class="weui-cell weui-cell_access" href="https://weixin110.qq.com"> -->
                     <div class="weui-cell__bd">微信安全中心</div>
                     <div class="weui-cell__ft"></div>

@@ -4,7 +4,7 @@
         <header id="wx-header">
             <div class="center">
                 <router-link to="/self" tag="div" class="iconfont icon-return-arrow">
-                    <span>我</span>
+                    <span></span>
                 </router-link>
                 <span>设置</span>
             </div>
@@ -13,7 +13,7 @@
             <div class="weui-cells">
                 <router-link to="/self/settings/security" class="weui-cell weui-cell_access">
                     <div class="weui-cell__bd">帐号与安全</div>
-                    <div class="weui-cell__ft">已保护</div>
+                    <div class="weui-cell__ft"></div>
                 </router-link>
             </div>
             <div class="weui-cells">
@@ -37,9 +37,16 @@
                 </a>
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__bd">关于微信</div>
+                    <div class="weui-cell__ft">版本7.0.12</div>
+                </div>
+            </div>
+            <div class="weui-cells">
+                <div class="weui-cell weui-cell_access">
+                    <div class="weui-cell__bd">插件</div>
                     <div class="weui-cell__ft"></div>
                 </div>
             </div>
+
             <div class="weui-btn-area">
                 <button class="weui-btn weui-btn_warn" id="exitBtn">退出登录</button>
             </div>
