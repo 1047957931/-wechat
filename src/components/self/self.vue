@@ -20,7 +20,7 @@
       <div class="weui-cells">
         <router-link to="/self/album" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/me_more-expression.png">
+            <img src="../../assets/images/me_pay.png">
           </div>
           <div class="weui-cell__bd">
             <p>支付</p>
