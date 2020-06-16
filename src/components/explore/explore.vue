@@ -15,7 +15,7 @@
           <div class="weui-cell__bd" style="line-height: 28px;">朋友圈</div>
           <div class="weui-cell__ft">
             <div class="home__notice" v-show="momentNewMsg">
-              <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png" alt class />
+              <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/Head.png" alt class />
               <i class="new-msg-dot"></i>
             </div>
           </div>

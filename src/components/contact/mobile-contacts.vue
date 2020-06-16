@@ -12,12 +12,21 @@
         <!--这里的 search 组件的样式也需要修改一下-->
         <search></search>
         <section>
+          <div class="weui-cells__title">☆ 星标朋友</div>
+            <div class="weui-cells">
+                <div class="weui-cell weui-cell_access">
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__bd">
+                        周周
+                    </div>
+                </div>
+            </div>
             <div class="weui-cells__title">B</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/baiqian.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        白浅
+                        B
                     </div>
                 </div>
             </div>
@@ -26,7 +35,7 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/guangyu.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        关羽
+                        G
                     </div>
                 </div>
             </div>
@@ -35,7 +44,7 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/huangyueying.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        黄月英
+                        H
                     </div>
                 </div>
             </div>
@@ -44,7 +53,7 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/liubei.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        刘备
+                        L
                     </div>
                 </div>
             </div>
@@ -53,13 +62,13 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/sunshangxiang.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        孙尚香2
+                        S
                     </div>
                 </div>
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        孙权
+                        S
                     </div>
                 </div>
             </div>
@@ -68,7 +77,7 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        夜华
+                        Y
                     </div>
                 </div>
             </div>
@@ -77,13 +86,13 @@
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        阿荡
+                        周周
                     </div>
                 </div>
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        诸葛亮
+                      ZZ
                     </div>
                 </div>
                 <div class="weui-cell weui-cell_access">

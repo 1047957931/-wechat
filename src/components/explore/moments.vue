@@ -13,7 +13,7 @@
             <div class="home-pic-base">
                 <div class="top-pic">
                     <div class="top-pic-inner">
-                        <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png">
+                        <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/Head.png">
                     </div>
                 </div>
                 <div class="top-name _ellipsis">羊习习</div>

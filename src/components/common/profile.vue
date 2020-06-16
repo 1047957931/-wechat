@@ -15,7 +15,7 @@
                     <p>头像</p>
                 </div>
                 <div class="weui-cell__ft">
-                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png" style="width: 50px;height: 50px;border-radius: 4px;">
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/Head.png" style="width: 50px;height: 50px;border-radius: 4px;">
                 </div>
             </div>
             <div class="weui-cell">

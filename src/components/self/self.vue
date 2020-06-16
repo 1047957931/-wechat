@@ -5,7 +5,7 @@
       <div class="weui-cells">
         <router-link to="/self/profile" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
-            <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png" alt="" class="self-header">
+            <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/Head.png" alt="" class="self-header">
           </div>
           <div class="weui-cell__bd">
             <h4 class="self-nickname">羊习习</h4>

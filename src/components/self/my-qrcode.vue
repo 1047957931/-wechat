@@ -11,7 +11,7 @@
         </header>
         <section>
             <div class="clearfix">
-                <div class="header"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png" alt="" style="width:40px"></div>
+                <div class="header"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/Head.png" alt="" style="width:40px"></div>
                 <div class="info">
                     <p><span>羊习习</span><span class="gender gender-male"></span></p>
                     <span>江苏 南京</span>
@@ -48,7 +48,7 @@
     }
 
     .qrcode #qrcode-pic {
-        background: url("https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/add-me.png");
+        background: url("https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/add.png");
         background-size: 100% 100%;
         width: 300px;
         height: 300px;
