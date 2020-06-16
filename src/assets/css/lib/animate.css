@@ -131,8 +131,6 @@
 }
 
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
 @-webkit-keyframes pulse {
     from {
         -webkit-transform: scale3d(1, 1, 1);
