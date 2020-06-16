@@ -1,6 +1,6 @@
 const getters = {
 
-    //  从联系人中提取出首字母 再排序 
+    //  从联系人中提取出首字母 再排序
 
     contactsInitialList: state => {
         var initialList = [],
