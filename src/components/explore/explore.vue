@@ -29,7 +29,7 @@
           v-on:click.native="momentNewMsg=false"
         >
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-circle.png" />
+            <img src="../../assets/images/find_icon-video.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">视频号</div>
           <div class="weui-cell__ft"></div>
@@ -52,13 +52,13 @@
       <div class="weui-cells">
         <div class="weui-cell weui-cell_access" id="scanCell">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-qrcode.png" />
+            <img src="../../assets/images/find_icon-look.png" />
           </div>
           <div class="weui-cell__bd">看一看</div>
         </div>
         <div class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-shake.png" />
+            <img src="../../assets/images/find_icon-search.png" />
           </div>
           <div class="weui-cell__bd">搜一搜</div>
         </div>
@@ -66,7 +66,7 @@
       <div class="weui-cells">
         <div class="weui-cell weui-cell_access" id="scanCell">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-qrcode.png" />
+            <img src="../../assets/images/find_icon-nearby.png" />
           </div>
           <div class="weui-cell__bd">附近的人</div>
         </div>
@@ -81,7 +81,7 @@
         </a>
         <div class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-moregame.png" />
+            <img src="../../assets/images/find_icon-game.png" />
           </div>
           <div class="weui-cell__bd">游戏</div>
         </div>
@@ -89,7 +89,7 @@
       <div class="weui-cells">
         <div class="weui-cell weui-cell_access" id="scanCell">
           <div class="weui-cell__hd">
-            <img src="../../assets/images/find_icon-qrcode.png" />
+            <img src="../../assets/images/find_icon-applets.png" />
           </div>
           <div class="weui-cell__bd">小程序</div>
         </div>
