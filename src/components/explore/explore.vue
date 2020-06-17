@@ -23,7 +23,7 @@
       </div>
       <div class="weui-cells">
         <router-link
-          to="/explore/moments"
+          to="/explore/video"
           class="weui-cell weui-cell_access"
           tag="div"
           v-on:click.native="momentNewMsg=false"
@@ -37,16 +37,19 @@
       </div>
       <div class="weui-cells">
         <div class="weui-cell weui-cell_access" id="scanCell">
+
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-qrcode.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">扫一扫</div>
+          <div class="weui-cell__ft"></div>
         </div>
         <div class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-shake.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">摇一摇</div>
+          <div class="weui-cell__ft"></div>
         </div>
       </div>
       <div class="weui-cells">
@@ -55,12 +58,14 @@
             <img src="../../assets/images/find_icon-look.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">看一看</div>
+          <div class="weui-cell__ft"></div>
         </div>
         <div class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-search.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">搜一搜</div>
+          <div class="weui-cell__ft"></div>
         </div>
       </div>
       <div class="weui-cells">
@@ -69,6 +74,7 @@
             <img src="../../assets/images/find_icon-nearby.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">附近的人</div>
+          <div class="weui-cell__ft"></div>
         </div>
       </div>
 
@@ -78,12 +84,14 @@
             <img src="../../assets/images/find_icon-shopping.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">购物</div>
+          <div class="weui-cell__ft"></div>
         </a>
         <div class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-game.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">游戏</div>
+          <div class="weui-cell__ft"></div>
         </div>
       </div>
       <div class="weui-cells">
@@ -92,6 +100,7 @@
             <img src="../../assets/images/find_icon-applets.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">小程序</div>
+          <div class="weui-cell__ft"></div>
         </div>
       </div>
     </section>
