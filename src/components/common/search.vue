@@ -1,6 +1,5 @@
 <template>
-    <!--复用性非常高，涉及的动效也比较复杂-->
-    <!--search-open 控制搜索框被激活时的动效、样式-->
+    <!--搜索框-->
   <div id="search" :class="{'search-open':!$store.state.headerStatus}">
     <div class="weui-search-bar" id="search_bar" :class="{'weui-search-bar_focusing':!$store.state.headerStatus}">
       <form class="weui-search-bar__form">
@@ -19,7 +18,7 @@
     <article>
       <h3 class="weui-media-box__desc">搜索指定内容</h3>
       <div class="tag"><span>朋友圈</span><span>文章</span><span>公众号</span><span>小说</span><span>音乐</span><span>表情</span></div>
-      <div class="weui-cells">
+      <!-- <div class="weui-cells">
           <a class="weui-cell weui-cell_access" href="javascript:;">
             <div class="weui-cell__hd"><img src="../../assets/images/book.png" alt="" style="width:20px;margin-right:5px;display:block"></div>
             <div class="weui-cell__bd">
@@ -27,7 +26,7 @@
             </div>
             <div class="weui-cell__ft"></div>
           </a>
-      </div>
+      </div> -->
     </article>
   </div>
 </template>

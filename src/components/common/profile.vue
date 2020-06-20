@@ -1,10 +1,10 @@
 <template>
-<!--个人信息组件-->
+<!--个人信息界面-->
     <div class="profile">
         <header id="wx-header">
             <div class="center">
                 <router-link to="/self" tag="div" class="iconfont icon-return-arrow">
-                    <span>我</span>
+                    <span></span>
                 </router-link>
                 <span>个人信息</span>
             </div>
@@ -20,11 +20,12 @@
             </div>
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <p>名字</p>
+                    名字
                 </div>
                 <div class="weui-cell__ft">
                     羊习习
                 </div>
+
             </div>
             <div class="weui-cell">
                 <div class="weui-cell__bd">
@@ -44,10 +45,9 @@
             </router-link>
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <p>我的地址</p>
+                    <p>更多</p>
                 </div>
                 <div class="weui-cell__ft">
-
                 </div>
             </div>
         </div>
@@ -87,6 +87,8 @@
                 <div class="weui-cell__ft">
                     未设置
                 </div>
+
+
             </div>
         </div>
 

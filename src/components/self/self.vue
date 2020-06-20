@@ -25,6 +25,7 @@
           <div class="weui-cell__bd">
             <p>支付</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
       </div>
       <div class="weui-cells">
@@ -35,6 +36,7 @@
           <div class="weui-cell__bd">
             <p>收藏</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
         <router-link to="/self/album" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
@@ -43,6 +45,7 @@
           <div class="weui-cell__bd">
             <p>相册</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
         <router-link to="/self/album" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
@@ -51,6 +54,7 @@
           <div class="weui-cell__bd">
             <p>卡包</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
         <router-link to="/self/album" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
@@ -59,6 +63,7 @@
           <div class="weui-cell__bd">
             <p>表情</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
       </div>
       <div class="weui-cells">
@@ -69,6 +74,7 @@
           <div class="weui-cell__bd">
             <p>设置</p>
           </div>
+          <div class="weui-cell__ft"></div>
         </router-link>
       </div>
     </div>

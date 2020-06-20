@@ -1,5 +1,5 @@
 <template>
-<!--可复用的相册组件 这里只完成静态页面 不涉及数据-->
+<!--个人相册界面-->
     <div class="album">
         <header id="wx-header">
             <div class="center">
@@ -18,53 +18,66 @@
                 </div>
                 <div class="top-name _ellipsis"></div>
             </div>
-            <p class="sign">填坑小能手</p>
+            <p class="sign"></p>
         </div>
         <section class="album-box clearfix">
             <div class="post-date">
-                <b class="day">04</b>
-                <b class="month">3月</b>
+                <b class="day">今天</b>
+                <b class="month"></b>
             </div>
             <div class="post-content">
                 <div class="tumb-box">
-                    <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
-                    <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
-                    <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/take.png" alt="">
+
                 </div>
                 <div class="thumb-desc">
-                    AAAAAAA
-                    <p class="number">共3张</p>
+
+                    <p class="number"></p>
                 </div>
             </div>
         </section>
         <section class="album-box clearfix">
             <div class="post-date">
-                <b class="day">12</b>
-                <b class="month">2月</b>
+                <b class="day">昨天</b>
+                <b class="month"></b>
             </div>
             <div class="post-content">
                 <div class="tumb-box">
-                    <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
-                     <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq.JPG" alt="">
                 </div>
                 <div class="thumb-desc">
-                    装逼如风 常伴吾生
-                    <p class="number">共2张</p>
+
+                    <p class="number"></p>
                 </div>
             </div>
         </section>
         <section class="album-box clearfix">
             <div class="post-date">
-                <b class="day">23</b>
-                <b class="month">1月</b>
+                <b class="day">17</b>
+                <b class="month">6月</b>
             </div>
             <div class="post-content">
                 <div class="tumb-box">
-                    <img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" alt="">
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq2.JPG" alt="">
                 </div>
                 <div class="thumb-desc">
-                    装逼如风 常伴吾生
-                    <p class="number">共1张</p>
+                    ☔️🈚️🏀😠
+                    <p class="number"></p>
+                </div>
+            </div>
+        </section>
+        <section class="album-box clearfix">
+            <div class="post-date">
+                <b class="day">17</b>
+                <b class="month">6月</b>
+            </div>
+            <div class="post-content">
+                <div class="tumb-box">
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq3.JPG" alt="">
+                </div>
+                <div class="thumb-desc">
+                    好剧！！！
+                    <p class="number"></p>
                 </div>
             </div>
         </section>

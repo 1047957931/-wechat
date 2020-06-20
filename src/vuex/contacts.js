@@ -15,16 +15,16 @@
 const contacts = [{ //昵称备注都有的朋友
         "wxid": "wxid_zhaohd",
         "initial": 'z',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/header01.png",
-        "nickname": "阿荡",
-        "sex": 1,
-        "remark": "阿荡",
-        "signature": "填坑小能手",
-        "telphone": 18896586152,
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png",
+        "nickname": "周周",
+        "sex": 0,
+        "remark": "周周",
+        "signature": "",
+        "telphone": 18912519979,
         "album": [{
             imgSrc: ""
         }],
-        "area": ["中国", "北京", "海淀"],
+        "area": ["中国", "盐城", "东台"],
         "from": "",
         "tag": "",
         "desc": {
