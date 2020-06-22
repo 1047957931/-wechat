@@ -1,8 +1,8 @@
 <template>
-    <!--模拟 iOS 的 3DTouch 效果 效果不满意 未使用-->
+    <!-- -->
     <div class="threeD">
         <div class="main">
-            <header>收购万达讨论群</header>
+            <header>🏥精神病院304病房💊</header>
             <!--<section class="dialogue-section">
                 <div class="row clearfix" v-for="item in msgInfo.msg">
                     <img :src="item.headerUrl" class="header">
