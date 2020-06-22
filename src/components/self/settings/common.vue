@@ -13,6 +13,13 @@
             <section>
                 <div class="weui-cells">
                     <div class="weui-cell">
+                        <div class="weui-cell__bd">深色模式</div>
+                        <div class="weui-cell__ft">跟随系统</div>
+
+                    </div>
+                </div>
+                <div class="weui-cells">
+                    <div class="weui-cell">
                         <div class="weui-cell__bd">多语言</div>
                         <div class="weui-cell__ft"></div>
                     </div>
@@ -31,7 +38,7 @@
                         <div class="weui-cell__ft"></div>
                     </div>
                     <div class="weui-cell">
-                        <div class="weui-cell__bd">朋友圈小视频</div>
+                        <div class="weui-cell__bd">照片、视频和文件</div>
                         <div class="weui-cell__ft"></div>
                     </div>
                 </div>
@@ -41,15 +48,19 @@
                         <div class="weui-cell__ft"><input type="checkbox" class="weui-switch"></div>
                     </div>
                 </div>
-                <div class="weui-cells">
+                 <div class="weui-cells">
                     <div class="weui-cell">
-                        <div class="weui-cell__bd">功能</div>
+                        <div class="weui-cell__bd">发现页功能</div>
+                        <div class="weui-cell__ft"></div>
+                    </div>
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd">辅助功能</div>
                         <div class="weui-cell__ft"></div>
                     </div>
                 </div>
                 <div class="weui-cells">
                     <div class="weui-cell">
-                        <div class="weui-cell__bd">聊天记录迁移</div>
+                        <div class="weui-cell__bd">聊天记录备份与迁移</div>
                         <div class="weui-cell__ft"></div>
                     </div>
                     <div class="weui-cell">
