@@ -43,50 +43,22 @@
                     <img src="../../assets/images/contact_add-friend-my-qr.png" style="vertical-align: middle;;width:24px" class="_align-middle">
                 </div>
             </router-link>
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <p>更多</p>
-                </div>
-                <div class="weui-cell__ft">
-                </div>
+            <div class="weui-cells">
+                <router-link to="/self/settings/sex" class="weui-cell weui-cell_access">
+                    <div class="weui-cell__bd">更多</div>
+                    <div class="weui-cell__ft"></div>
+                </router-link>
             </div>
         </div>
 
-        <div class="weui-cells">
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <p>性别</p>
-                </div>
-                <div class="weui-cell__ft">
-                    男
-                </div>
-            </div>
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <p>地区</p>
-                </div>
-                <div class="weui-cell__ft">
-                    江苏 南京
-                </div>
-            </div>
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <p>个性签名</p>
-                </div>
-                <div class="weui-cell__ft">
-                    未填写
-                </div>
-            </div>
-        </div>
+
 
         <div class="weui-cells">
-            <div class="weui-cell">
+            <div class="weui-cell weui-cell_access">
                 <div class="weui-cell__bd">
                     <p>我的地址</p>
                 </div>
-                <div class="weui-cell__ft">
-                    未设置
-                </div>
+                <div class="weui-cell__ft"></div>
 
 
             </div>

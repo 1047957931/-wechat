@@ -117,10 +117,20 @@ const routes = [{
     {
         path: '/self/settings',
         components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings.vue"], resolve) }
-    }, {
+    },
+    {
         path: '/self/settings/security',
         components: { "subPage": resolve => require(["../components/self/settings/security.vue"], resolve) }
     },
+    {
+      path: '/self/settings/plugin',
+      components: { "subPage": resolve => require(["../components/self/settings/plugin.vue"], resolve) }
+  },
+    {
+      path: '/self/settings/sex',
+      components: { "subPage": resolve => require(["../components/self/settings/sex.vue"], resolve) }
+  },
+
     {
         path: '/self/settings/notice',
         components: { "subPage": resolve => require(["../components/self/settings/notice.vue"], resolve) }

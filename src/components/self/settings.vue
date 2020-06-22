@@ -37,19 +37,27 @@
                 </a>
                 <div class="weui-cell weui-cell_access">
                     <div class="weui-cell__bd">关于微信</div>
-                    <div class="weui-cell__ft">版本7.0.12</div>
+                    <div class="weui-cell__ft">版本7.0.13</div>
                 </div>
             </div>
             <div class="weui-cells">
-                <div class="weui-cell weui-cell_access">
+                <router-link to="/self/settings/plugin" class="weui-cell weui-cell_access">
                     <div class="weui-cell__bd">插件</div>
                     <div class="weui-cell__ft"></div>
+                </router-link>
+            </div>
+            <div class="weui-cells">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd" style="text-align:center">切换帐号</div>
+                        <div class="weui-cell__ft"></div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="weui-btn-area">
-                <button class="weui-btn weui-btn_warn" id="exitBtn">退出登录</button>
-            </div>
+                <div class="weui-cells">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd" style="text-align:center">退出登录</div>
+                        <div class="weui-cell__ft"></div>
+                    </div>
+                </div>
         </section>
     </div>
 </template>
