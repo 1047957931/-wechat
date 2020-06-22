@@ -23,27 +23,27 @@
         <div class="weui-cells message-list">
             <div class="weui-cell">
                 <div class="weui-cell__hd">
-                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/background.png" alt=""> </div>
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG" alt=""> </div>
                 <div class="weui-cell__bd weui-cell_primary">
-                    <p><b>路飞</b></p>
+                    <p><b>王梓君</b></p>
                     <p><span>来自手机通讯录</span></p>
                 </div>
                 <div class="weui-cell__ft">已添加</div>
             </div>
             <div class="weui-cell">
                 <div class="weui-cell__hd">
-                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/background.png" alt=""></div>
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/lj.JPG" alt=""></div>
                 <div class="weui-cell__bd weui-cell_primary">
-                    <p><b>娜美</b></p>
+                    <p><b>刘杰</b></p>
                     <p><span>来自手机联系人</span></p>
                 </div>
                 <div class="weui-cell_ft">已拒绝</div>
             </div>
             <div class="weui-cell">
                 <div class="weui-cell__hd">
-                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/background.png" alt=""></div>
+                    <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/jyx.JPG" alt=""></div>
                 <div class="weui-cell__bd weui-cell_primary">
-                    <p><b>乌索普</b></p>
+                    <p><b>蒋亦心</b></p>
                     <p><span>来自账号查找</span></p>
                 </div>
                 <div class="weui-cell_ft"> <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">接受</a> </div>

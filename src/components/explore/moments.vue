@@ -13,7 +13,7 @@
       <div class="home-pic-base">
         <div class="top-pic">
           <router-link
-            to="/explore/moments"
+            to="/self/settings/common"
             class="weui-cell weui-cell_access"
             tag="div"
             v-on:click.native="momentNewMsg=false"

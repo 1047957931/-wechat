@@ -23,22 +23,31 @@
         <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <p>女朋友(0)</p>
+                    <p>我(0)</p>
                 </div>
             </div>
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <p>基友(999+)</p>
+                    <p>朋友(300)</p>
                 </div>
             </div>
-        </div>
-        <!--<a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-            <div class="weui-media__bd">
-                <h4 class="weui-media-box__title">同学</h4>
-
-                <p class="weui-media-box__desc">夜华</p>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>家人(66)</p>
+                </div>
             </div>
-        </a>-->
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>同学(999+)</p>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>工作(196)</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </template>
 <script>
