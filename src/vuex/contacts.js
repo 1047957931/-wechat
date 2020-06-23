@@ -13,7 +13,7 @@
  * desc-描述
  */
 const contacts = [{ //昵称备注都有的朋友
-        "wxid": "wxid_zhaohd",
+        "wxid": "Z202911N",
         "initial": 'z',
         "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png",
         "nickname": "周周",
@@ -30,204 +30,135 @@ const contacts = [{ //昵称备注都有的朋友
         "desc": {
 
         }
-    },
-    {
-        "wxid": "wxid_baiqian",
-        "initial": 'b',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/baiqian.jpg",
-        "nickname": "白浅",
-        "sex": 0,
-        "remark": "",
-        "signature": "青丘女帝，天族天妃",
-        "telphone": 18896586152,
-        "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian01.jpeg",
-            date: 182625262
-        }, {
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian02.jpeg",
-            date: 182625262
-        }],
-        "area": ["青丘", "狐狸洞"],
-        "from": "通过扫一扫",
-        "tag": "女帝",
-        "desc": {
-            "title": "",
-            "picUrl": ""
-        }
     }, { //昵称备注都有的朋友
-        "wxid": "wxid_yehua",
-        "initial": 'y',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/yehua.jpg",
-        "nickname": "夜华",
+        "wxid": "C200812X",
+        "initial": 'Y',
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png",
+        "nickname": "羊习习",
         "sex": 1,
-        "remark": "夜华",
-        "signature": "浅浅，过来",
-        "telphone": 18896586152,
+        "remark": "羊习习",
+        "signature": "羊习习",
+        "telphone": 18061735962,
         "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu02.jpeg",
+            imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq.JPG",
             date: 182625262
-        }, {
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian02.jpeg",
+        },{
+          imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq2.JPG",
+          date: 182625262
+        },{
+            imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq3.JPG",
             date: 182625262
         }],
-        "area": ["九重天", "洗梧宫"],
+        "area": ["江苏", "南京"],
         "from": "通过扫一扫",
-        "tag": "太子",
+        "tag": "羊习习",
         "desc": {
             "title": "",
             "picUrl": ""
         }
     },
     {
-        "wxid": "wxid_liubei",
+        "wxid": "J1158641873",
+        "initial": 'j',
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/jyx.JPG",
+        "nickname": "蒋亦心",
+        "sex": 1,
+        "remark": "蒋亦心",
+        "signature": "秋",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian02.jpeg",
+            date: 182625262
+        }, {
+            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["江苏", "南京"],
+        "from": "通过扫一扫",
+        "tag": "秦淮区",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },
+    {
+        "wxid": "LJ_541124324",
         "initial": 'l',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/liubei.jpg",
-        "nickname": "刘备",
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/lj.JPG",
+        "nickname": "刘杰",
         "sex": 1,
-        "remark": "刘备",
-        "signature": "惟贤惟德，仁服于人",
+        "remark": "刘杰",
+        "signature": "恰🐔，上号！",
         "telphone": 18896586152,
         "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu02.jpeg",
-            date: 182625262
-        }, {
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian01.jpeg",
+            imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-lj.JPG",
             date: 182625262
         }],
-        "area": ["蜀国", "荆州"],
-        "from": "通过扫一扫",
-        "tag": "主公",
+        "area": ["江苏", "南京"],
+        "from": "通过手机号码添加",
+        "tag": "柴杰",
         "desc": {
             "title": "",
             "picUrl": ""
         }
     },
     {
-        "wxid": "wxid_guangyu",
-        "initial": 'g',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/guangyu.jpg",
-        "nickname": "关羽",
+        "wxid": "wzj991129",
+        "initial": 'w',
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG",
+        "nickname": "王梓君",
         "sex": 1,
-        "remark": "关羽",
-        "signature": "观尔乃插标卖首",
+        "remark": "王梓君",
+        "signature": "中午吃什么",
         "telphone": 18896586152,
         "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian02.jpeg",
-            date: 182625262
-        }, {
             imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu01.jpeg",
             date: 182625262
         }],
-        "area": ["蜀国", "荆州"],
-        "from": "通过扫一扫",
-        "tag": "蜀",
+        "area": ["苏州", "盛泽"],
+        "from": "通过手机号码添加",
+        "tag": "君君",
         "desc": {
             "title": "",
             "picUrl": ""
         }
     },
     {
-        "wxid": "wxid_zhugeliang",
+        "wxid": "zhou3107854980",
         "initial": 'z',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg",
-        "nickname": "诸葛亮",
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zwl.JPG",
+        "nickname": "周文龙",
         "sex": 1,
-        "remark": "诸葛亮",
-        "signature": "你可识得此阵？",
-        "telphone": 18896586152,
+        "remark": "周文龙",
+        "signature": "帮我带个饭吧",
+        "telphone": 13776662062,
         "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian01.jpeg",
-            date: 182625262
-        }, {
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu01.jpeg",
+            imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zwl.JPG",
             date: 182625262
         }],
-        "area": ["蜀国", "荆州"],
-        "from": "通过扫一扫",
-        "tag": "卧龙",
-        "desc": {
-            "title": "",
-            "picUrl": ""
-        }
-    },
-    {
-        "wxid": "wxid_sunshangxiang",
-        "initial": 's',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunshangxiang.jpg",
-        "nickname": "孙尚香",
-        "sex": 0,
-        "remark": "孙尚香2",
-        "signature": "夫君,身体要紧~",
-        "telphone": 18896586152,
-        "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/baiqian/baiqian02.jpeg",
-            date: 182625262
-        }],
-        "area": ["吴国", "富春"],
+        "area": ["江苏", "淮安"],
         "from": "通过手机号码添加",
-        "tag": "孙夫人",
-        "desc": {
-            "title": "",
-            "picUrl": ""
-        }
-    },
-    {
-        "wxid": "wxid_sunquan",
-        "initial": 's',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg",
-        "nickname": "孙权",
-        "sex": 1,
-        "remark": "孙权",
-        "signature": "容我三思",
-        "telphone": 18896586152,
-        "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu01.jpeg",
-            date: 182625262
-        }],
-        "area": ["吴国", "吴郡"],
-        "from": "通过手机号码添加",
-        "tag": "主公",
-        "desc": {
-            "title": "",
-            "picUrl": ""
-        }
-    },
-    {
-        "wxid": "wxid_huangyueying",
-        "initial": 'h',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/huangyueying.jpg",
-        "nickname": "黄月英",
-        "sex": 0,
-        "remark": "黄月英",
-        "signature": "哼哼~",
-        "telphone": 18896586152,
-        "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu02.jpeg",
-            date: 182625262
-        }],
-        "area": ["蜀", "荆州"],
-        "from": "通过手机号码添加",
-        "tag": "蜀",
+        "tag": "淮安",
         "desc": {
             "title": "",
             "picUrl": ""
         }
     }, {
-        "wxid": "wxid_zhenji",
-        "initial": 'z',
-        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/zhenji.jpg",
-        "nickname": "甄姬",
-        "sex": 0,
-        "remark": "甄姬",
-        "signature": "仿佛兮若轻云之蔽月",
-        "telphone": 18896586152,
+        "wxid": "DDp_15252859537",
+        "initial": 'd',
+        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/ddp.JPG",
+        "nickname": "段东坡",
+        "sex": 1,
+        "remark": "段东坡",
+        "signature": "猫和老鼠",
+        "telphone": 15252859537,
         "album": [{
-            imgSrc: "https://sinacloud.net/vue-wechat/images/album/guanyu/guanyu01.jpeg",
+            imgSrc: "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/ddp.JPG",
             date: 182625262
         }],
-        "area": ["魏", "荆州", "中山"],
+        "area": ["江苏", "宿迁"],
         "from": "通过手机号码添加",
-        "tag": "蜀",
+        "tag": "泗洪",
         "desc": {
             "title": "",
             "picUrl": ""

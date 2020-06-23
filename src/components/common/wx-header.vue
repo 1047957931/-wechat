@@ -24,9 +24,10 @@
         <li> <span class="iconfont icon-tips-saoyisao"></span>
           <div>扫一扫</div>
         </li>
-        <li> <span class="iconfont icon-tips-fukuan"></span>
+        <router-link tag="li" to="/wehchat/money">
+        <span class="iconfont icon-tips-fukuan"></span>
           <div>收付款</div>
-        </li>
+        </router-link>
       </ul>
     </div>
     <div class="center">

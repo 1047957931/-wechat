@@ -6,7 +6,7 @@ import mutations from "./mutations"
 import actions from "./actions"
 import getters from "./getters"
 Vue.use(Vuex)
-    // 统一管理接口域名 
+    // 统一管理接口域名
 let apiPublicDomain = '//vrapi.snail.com/'
 const state = {
     currentLang: "zh", //当前使用的语言 zh：简体中文 en:英文 后期需要
@@ -34,25 +34,25 @@ const state = {
                 "msg": [{ //对话框的聊天记录 新消息 push 进
                     "text": "长按这些白色框消息，唤醒消息操作菜单，长按这些白色框消息，唤醒消息操作菜单",
                     "date": 1488117964495,
-                    "name": "阿荡",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/header01.png"
+                    "name": "周周",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                 }, {
                     "text": '点击空白处，操作菜单消失',
                     "date": 1488117964495,
-                    "name": "阿荡",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/header01.png"
+                    "name": "周周",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                 }, {
                     "text": '来呀 快活啊',
                     "date": 1488117964495,
-                    "name": "阿荡",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/header01.png"
+                    "name": "周周",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                 }],
-                "user": [contact.getUserInfo('wxid_zhaohd')] // 此消息的用户数组 长度为1则为私聊 长度大于1则为群聊
+                "user": [contact.getUserInfo('Z202911N')] // 此消息的用户数组 长度为1则为私聊 长度大于1则为群聊
             },
             {
                 "mid": 2,
                 "type": "group",
-                "group_name": "收购万达讨论群",
+                "group_name": "必胜客宅急送",
                 "group_qrCode": "",
                 "read": false,
                 "newMsgCount": 1,
@@ -60,27 +60,27 @@ const state = {
                 "msg": [{
                         "text": "长按消息，唤醒消息操作菜单",
                         "date": 1488117964495,
-                        "name": "夜华",
-                        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+                        "name": "周周",
+                        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                     }, {
                         "text": '点击空白处，操作菜单消失',
                         "date": 1488117964495,
-                        "name": "阿荡",
-                        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/header01.png"
+                        "name": "周周",
+                        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                     },
                     {
                         "text": '我试一试',
                         "date": 1488117964495,
-                        "name": "夜华",
-                        "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+                        "name": "周周",
+                        "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zhouzhou.png"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('C200812X'), contact.getUserInfo('Z202911N')]
             },
             {
                 "mid": 3,
                 "type": "group",
-                "group_name": "收购淘宝讨论群",
+                "group_name": "🏥精神病院304病房💊",
                 "group_qrCode": "",
                 "read": true,
                 "newMsgCount": 1,
@@ -88,10 +88,15 @@ const state = {
                 "msg": [{
                     "text": '冒个泡',
                     "date": 1488117964495,
-                    "name": "诸葛亮",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg"
+                    "name": "王梓君",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG"
                 }],
-                "user": [contact.getUserInfo('wxid_zhenji'), contact.getUserInfo('wxid_zhugeliang'), contact.getUserInfo('wxid_zhaohd')]
+                "user": [contact.getUserInfo('C200812X'),
+                contact.getUserInfo('wzj991129'),
+                contact.getUserInfo('LJ_541124324'),
+                contact.getUserInfo('J1158641873'),
+                contact.getUserInfo('DDp_15252859537'),
+                contact.getUserInfo('zhou3107854980'),]
             },
             {
                 "mid": 4,
@@ -102,22 +107,22 @@ const state = {
                 "newMsgCount": 4,
                 "quiet": false,
                 "msg": [{
-                    "text": "长按消息，唤醒消息操作菜单",
+                    "text": "在哪呢",
                     "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg"
+                    "name": "王梓君",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG"
                 }, {
-                    "text": '点击空白处，操作菜单消失',
+                    "text": '中午吃啥呀',
                     "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg"
+                    "name": "王梓君",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG"
                 }, {
-                    "text": '容我三思',
+                    "text": '打包回去吃还是在食堂吃',
                     "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg"
+                    "name": "王梓君",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG"
                 }],
-                "user": [contact.getUserInfo('wxid_sunquan')]
+                "user": [contact.getUserInfo('wzj991129')]
             },
             {
                 "mid": 5,
@@ -128,12 +133,12 @@ const state = {
                 "newMsgCount": 4,
                 "quiet": false,
                 "msg": [{
-                    "text": '夫君,身体要紧~ ',
+                    "text": '恰🐔，上号！',
                     "date": 1488117964495,
-                    "name": "孙尚香",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/sunshangxiang.jpg"
+                    "name": "刘杰",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/lj.JPG"
                 }],
-                "user": [contact.getUserInfo('wxid_sunshangxiang')]
+                "user": [contact.getUserInfo('LJ_541124324')]
             },
             {
                 "mid": 6,
@@ -144,12 +149,12 @@ const state = {
                 "newMsgCount": 4,
                 "quiet": true,
                 "msg": [{
-                    "text": '三姓家奴！ ',
+                    "text": '端午节是不是不上课？',
                     "date": 1488117964495,
-                    "name": "关羽",
-                    "headerUrl": "https://sinacloud.net/vue-wechat/images/headers/guangyu.jpg"
+                    "name": "蒋亦心",
+                    "headerUrl": "https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/jyx.JPG"
                 }],
-                "user": [contact.getUserInfo('wxid_guangyu')]
+                "user": [contact.getUserInfo('J1158641873')]
             }
         ]
     }

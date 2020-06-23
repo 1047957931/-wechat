@@ -50,9 +50,9 @@
                     <div class="weui-cell__bd">帮朋友冻结微信</div>
                     <div class="weui-cell__ft"></div>
                 </div>
-                <a class="weui-cell weui-cell_access">
+                <!-- <a class="weui-cell weui-cell_access"> -->
                   <!-- 请求微信安全 -->
-                <!-- <a class="weui-cell weui-cell_access" href="https://weixin110.qq.com"> -->
+                <a class="weui-cell weui-cell_access" href="https://weixin110.qq.com">
                     <div class="weui-cell__bd">微信安全中心</div>
                     <div class="weui-cell__ft"></div>
                 </a>

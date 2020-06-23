@@ -24,6 +24,14 @@ const routes = [{
         }
     },
     {
+      path: '/wehchat/money',
+      name: "",
+      components: {
+          "default": resolve => require(["../components/wechat/wechat.vue"], resolve),
+          "subPage": resolve => require(["../components/wechat/money.vue"], resolve)
+      }
+  },
+    {
         path: '/wechat/dialogue/dialogue-info',
         name: "",
         components: {
@@ -114,6 +122,14 @@ const routes = [{
         path: '/self/album',
         components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/common/album.vue"], resolve) }
     },
+    {
+      path: '/self/pay',
+      components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/pay.vue"], resolve) }
+  },
+    {
+      path: '/explore/my',
+      components: { "subPage": resolve => require(["../components//explore/my.vue"], resolve) }
+  },
     {
         path: '/self/settings',
         components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings.vue"], resolve) }

@@ -21,84 +21,57 @@
                     </div>
                 </div>
             </div>
-            <div class="weui-cells__title">B</div>
+            <div class="weui-cells__title">D</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/baiqian.jpg" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/ddp.JPG" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        B
+                        段东坡
                     </div>
                 </div>
             </div>
-            <div class="weui-cells__title">G</div>
+            <div class="weui-cells__title">J</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/guangyu.jpg" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/jyx.JPG" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        G
-                    </div>
-                </div>
-            </div>
-            <div class="weui-cells__title">H</div>
-            <div class="weui-cells">
-                <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/huangyueying.jpg" class="home__mini-avatar___1nSrW"></div>
-                    <div class="weui-cell__bd">
-                        H
+                        蒋亦心
                     </div>
                 </div>
             </div>
             <div class="weui-cells__title">L</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/liubei.jpg" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/lj.JPG" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        L
+                      刘杰
                     </div>
                 </div>
             </div>
-            <div class="weui-cells__title">S</div>
+            <div class="weui-cells__title">W</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/sunshangxiang.jpg" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        S
-                    </div>
-                </div>
-                <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/sunquan.jpg" class="home__mini-avatar___1nSrW"></div>
-                    <div class="weui-cell__bd">
-                        S
+                        王梓君
                     </div>
                 </div>
             </div>
             <div class="weui-cells__title">Y</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/head.png" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        Y
+                        羊习习
                     </div>
                 </div>
             </div>
             <div class="weui-cells__title">Z</div>
             <div class="weui-cells">
                 <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/header01.png" class="home__mini-avatar___1nSrW"></div>
+                    <div class="weui-cell__hd"><img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/zwl.JPG" class="home__mini-avatar___1nSrW"></div>
                     <div class="weui-cell__bd">
-                        周周
-                    </div>
-                </div>
-                <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg" class="home__mini-avatar___1nSrW"></div>
-                    <div class="weui-cell__bd">
-                      ZZ
-                    </div>
-                </div>
-                <div class="weui-cell weui-cell_access">
-                    <div class="weui-cell__hd"><img src="https://sinacloud.net/vue-wechat/images/headers/zhenji.jpg" class="home__mini-avatar___1nSrW"></div>
-                    <div class="weui-cell__bd">
-                        甄姬
+                        周文龙
                     </div>
                 </div>
             </div>

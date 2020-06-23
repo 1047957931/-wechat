@@ -13,7 +13,7 @@
       <div class="home-pic-base">
         <div class="top-pic">
           <router-link
-            to="/self/settings/common"
+            to="/explore/my"
             class="weui-cell weui-cell_access"
             tag="div"
             v-on:click.native="momentNewMsg=false"
@@ -28,15 +28,15 @@
     </div>
     <div class="weui-cell moments__post">
       <div class="weui-cell__hd">
-        <img src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg" />
+        <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/wzj.JPG" />
       </div>
       <div class="weui-cell__bd">
         <!-- 人名链接 -->
         <a class="title">
-          <span>夜华</span>
+          <span>王梓君</span>
         </a>
         <!-- post内容 -->
-        <p id="paragraph" class="paragraph">点击下方图片预览，点击下方图片预览，点击下方图片预览</p>
+        <p id="paragraph" class="paragraph">我是一个保安，爱吃小熊饼干，保卫一方平安，respect！</p>
         <!-- 伸张链接 -->
         <!-- <a id="paragraphExtender" class="paragraphExtender">显示全文</a> -->
         <!-- 相册 -->
@@ -48,12 +48,12 @@
             class="thumbnail"
           >
             <a
-              href="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+              href="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-wzj1.JPG"
               itemprop="contentUrl"
               data-size="400x400"
             >
               <img
-                src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+                src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-wzj1.JPG"
                 itemprop="thumbnail"
                 alt="Image description"
               />
@@ -68,12 +68,12 @@
             class="thumbnail"
           >
             <a
-              href="https://sinacloud.net/vue-wechat/images/headers/zhenji.jpg"
+              href="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-wzj2.JPG"
               itemprop="contentUrl"
               data-size="400x400"
             >
               <img
-                src="https://sinacloud.net/vue-wechat/images/headers/zhenji.jpg"
+                src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-wzj2.JPG"
                 itemprop="thumbnail"
                 alt="Image description"
               />
@@ -83,7 +83,7 @@
         </div>
         <!-- 资料条 -->
         <div class="toolbar">
-          <p class="timestamp">17小时前</p>
+          <p class="timestamp">1分钟前</p>
           <div>
             <div id="actionMenu" class="actionMenu slideIn">
               <p class="actionBtn" id="btnLike">
@@ -99,8 +99,10 @@
         <!-- 赞／评论区 -->
         <p class="liketext">
           <i class="icon icon-96"></i>
-          <span class="nickname">夜华</span>,
-          <span class="nickname">孙尚香</span>
+          <span class="nickname">♡羊习习</span>,
+          <span class="nickname">王梓君</span>,
+          <span class="nickname">刘杰</span>,
+          <span class="nickname">蒋亦心</span>
         </p>
       </div>
       <!-- 结束 post -->
@@ -108,15 +110,15 @@
 
     <div class="weui-cell moments__post">
       <div class="weui-cell__hd">
-        <img src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg" />
+        <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/lj.JPG" />
       </div>
       <div class="weui-cell__bd">
         <!-- 人名链接 -->
         <a class="title">
-          <span>夜华</span>
+          <span>刘杰</span>
         </a>
         <!-- post内容 -->
-        <p id="paragraph" class="paragraph">weui目前是比较好用的ui,在微信和手机中表现非常好。</p>
+        <p id="paragraph" class="paragraph">我是一名保安 上班为了下班 追女神的憨憨 每天都发晚安 人家看都不看</p>
         <!-- 伸张链接 -->
         <!-- <a id="paragraphExtender" class="paragraphExtender">显示全文</a> -->
         <!-- 相册 -->
@@ -128,42 +130,22 @@
             class="thumbnail"
           >
             <a
-              href="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+              href="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-lj.JPG"
               itemprop="contentUrl"
               data-size="400x400"
             >
               <img
-                src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
+                src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/pyq-lj.JPG"
                 itemprop="thumbnail"
                 alt="Image description"
               />
             </a>
             <figcaption itemprop="caption description">Image 01</figcaption>
           </figure>
-
-          <figure
-            itemprop="associatedMedia"
-            itemscope
-            itemtype="http://schema.org/ImageObject"
-            class="thumbnail"
-          >
-            <a
-              href="https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg"
-              itemprop="contentUrl"
-              data-size="400x400"
-            >
-              <img
-                src="https://sinacloud.net/vue-wechat/images/headers/zhugeliang.jpg"
-                itemprop="thumbnail"
-                alt="Image description"
-              />
-            </a>
-            <figcaption itemprop="caption description">Image 02</figcaption>
-          </figure>
         </div>
         <!-- 资料条 -->
         <div class="toolbar">
-          <p class="timestamp">17小时前</p>
+          <p class="timestamp">6小时前</p>
           <div>
             <div id="actionMenu" class="actionMenu slideIn">
               <p class="actionBtn" id="btnLike">
@@ -179,70 +161,32 @@
         <!-- 赞／评论区 -->
         <p class="liketext">
           <i class="icon icon-96"></i>
-          <span class="nickname">夜华</span>,
-          <span class="nickname">孙尚香</span>
+          <span class="nickname">♡羊习习</span>,
+          <span class="nickname">王梓君</span>,
+          <span class="nickname">刘杰</span>,
+          <span class="nickname">蒋亦心</span>
         </p>
       </div>
       <!-- 结束 post -->
     </div>
     <div class="weui-cell moments__post">
       <div class="weui-cell__hd">
-        <img src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg" />
+        <img src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/jyx.JPG" />
       </div>
       <div class="weui-cell__bd">
         <!-- 人名链接 -->
         <a class="title">
-          <span>夜华</span>
+          <span>蒋亦心</span>
         </a>
         <!-- post内容 -->
-        <p id="paragraph" class="paragraph">weui目前是比较好用的ui,在微信和手机中表现非常好。weui目前是比较好用的ui,在微信和手机中表现非常好</p>
+        <p id="paragraph" class="paragraph">我是一个保安 每天郁郁寡欢 混吃等死上班 每顿还要加餐</p>
         <!-- 伸张链接 -->
         <!-- <a id="paragraphExtender" class="paragraphExtender">显示全文</a> -->
         <!-- 相册 -->
-        <div class="thumbnails my-gallery">
-          <figure
-            itemprop="associatedMedia"
-            itemscope
-            itemtype="http://schema.org/ImageObject"
-            class="thumbnail"
-          >
-            <a
-              href="https://sinacloud.net/vue-wechat/images/headers/baiqian.jpg"
-              itemprop="contentUrl"
-              data-size="400x400"
-            >
-              <img
-                src="https://sinacloud.net/vue-wechat/images/headers/baiqian.jpg"
-                itemprop="thumbnail"
-                alt="Image description"
-              />
-            </a>
-            <figcaption itemprop="caption description">Image 01</figcaption>
-          </figure>
-
-          <figure
-            itemprop="associatedMedia"
-            itemscope
-            itemtype="http://schema.org/ImageObject"
-            class="thumbnail"
-          >
-            <a
-              href="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
-              itemprop="contentUrl"
-              data-size="400x400"
-            >
-              <img
-                src="https://sinacloud.net/vue-wechat/images/headers/yehua.jpg"
-                itemprop="thumbnail"
-                alt="Image description"
-              />
-            </a>
-            <figcaption itemprop="caption description">Image 02</figcaption>
-          </figure>
-        </div>
+        <div class="thumbnails my-gallery"></div>
         <!-- 资料条 -->
         <div class="toolbar">
-          <p class="timestamp">17小时前</p>
+          <p class="timestamp">1天前</p>
           <div>
             <div id="actionMenu" class="actionMenu slideIn">
               <p class="actionBtn" id="btnLike">
@@ -258,8 +202,10 @@
         <!-- 赞／评论区 -->
         <p class="liketext">
           <i class="icon icon-96"></i>
-          <span class="nickname">夜华</span>,
-          <span class="nickname">孙尚香</span>
+          <span class="nickname">♡羊习习</span>,
+          <span class="nickname">王梓君</span>,
+          <span class="nickname">刘杰</span>,
+          <span class="nickname">蒋亦心</span>
         </p>
       </div>
       <!-- 结束 post -->

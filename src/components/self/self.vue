@@ -18,7 +18,7 @@
         </router-link>
       </div>
       <div class="weui-cells">
-        <router-link to="/self/album" class="weui-cell weui-cell_access">
+        <router-link to="/self/pay" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
             <img src="../../assets/images/me_pay.png">
           </div>
