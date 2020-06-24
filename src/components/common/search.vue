@@ -38,7 +38,7 @@
 
                 }
             },
-            // 清除输入的内容 可以直接写 v-on:click="searchIpt=''"
+            // 清除输入的内容
             searchClear() {
                 this.searchIpt = ""
             }

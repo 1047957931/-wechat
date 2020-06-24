@@ -123,6 +123,10 @@ const routes = [{
         components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/common/album.vue"], resolve) }
     },
     {
+      path: '/self/card',
+      components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/pay.vue"], resolve) }
+  },
+    {
       path: '/self/pay',
       components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/pay.vue"], resolve) }
   },

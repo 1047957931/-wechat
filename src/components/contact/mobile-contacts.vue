@@ -9,7 +9,6 @@
                 <span>通讯录朋友</span>
             </div>
         </header>
-        <!--这里的 search 组件的样式也需要修改一下-->
         <search></search>
         <section>
           <div class="weui-cells__title">☆ 星标朋友</div>

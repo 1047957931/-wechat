@@ -47,7 +47,7 @@
           </div>
           <div class="weui-cell__ft"></div>
         </router-link>
-        <router-link to="/self/album" class="weui-cell weui-cell_access">
+        <router-link to="/self/card" class="weui-cell weui-cell_access">
           <div class="weui-cell__hd">
             <img src="../../assets/images/me_more-my-bank-card.png">
           </div>
