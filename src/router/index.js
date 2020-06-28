@@ -114,7 +114,72 @@ const routes = [{
             "default": resolve => require(["../components/explore/explore.vue"], resolve),
             "subPage": resolve => require(["../components/explore/moments.vue"], resolve)
         }
-    }, {
+    },
+    {
+      path: '/explore/video',
+      name: "朋友圈",
+      components: {
+          "default": resolve => require(["../components/explore/explore.vue"], resolve),
+          "subPage": resolve => require(["../components/explore/video.vue"], resolve)
+      }
+  },
+  {
+    path: '/explore/sao',
+    name: "朋友圈",
+    components: {
+        "default": resolve => require(["../components/explore/explore.vue"], resolve),
+        "subPage": resolve => require(["../components/explore/sao.vue"], resolve)
+    }
+},
+{
+  path: '/explore/yao',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/yao.vue"], resolve)
+  }
+},
+{
+  path: '/explore/look',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/look.vue"], resolve)
+  }
+},
+{
+  path: '/explore/search',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/search.vue"], resolve)
+  }
+},
+{
+  path: '/explore/near',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/near.vue"], resolve)
+  }
+},
+{
+  path: '/explore/game',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/game.vue"], resolve)
+  }
+},
+{
+  path: '/explore/small',
+  name: "朋友圈",
+  components: {
+      "default": resolve => require(["../components/explore/explore.vue"], resolve),
+      "subPage": resolve => require(["../components/explore/small.vue"], resolve)
+  }
+},
+     {
         path: '/self',
         name: "我",
         component: resolve => require(["../components/self/self.vue"], resolve)
@@ -123,8 +188,16 @@ const routes = [{
         components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/common/album.vue"], resolve) }
     },
     {
+      path: '/self/fav',
+      components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/fav.vue"], resolve) }
+  },
+  {
+    path: '/self/emjio',
+    components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/emjio.vue"], resolve) }
+},
+    {
       path: '/self/card',
-      components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/pay.vue"], resolve) }
+      components: { "default": resolve => require(["../components/self/self.vue"], resolve), "subPage": resolve => require(["../components/self/settings/card.vue"], resolve) }
   },
     {
       path: '/self/pay',

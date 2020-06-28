@@ -1,5 +1,5 @@
 <template>
-  <div><img class="a" src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/look.png" alt=""></div>
+  <div><img class="a" src="https://vx-vue.oss-cn-hangzhou.aliyuncs.com/icon/fav.png" alt=""></div>
 </template>
 
 <script>

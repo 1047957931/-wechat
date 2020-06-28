@@ -23,7 +23,7 @@
       </div>
       <div class="weui-cells">
         <router-link
-          to="/explore/moments"
+          to="/explore/video"
           class="weui-cell weui-cell_access"
           tag="div"
           v-on:click.native="momentNewMsg=false"
@@ -36,45 +36,70 @@
         </router-link>
       </div>
       <div class="weui-cells">
-        <div class="weui-cell weui-cell_access" id="scanCell">
+        <router-link
+          to="/explore/sao"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-qrcode.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">扫一扫</div>
           <div class="weui-cell__ft"></div>
-        </div>
-        <div class="weui-cell weui-cell_access">
+        </router-link>
+        <router-link
+          to="/explore/yao"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-shake.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">摇一摇</div>
           <div class="weui-cell__ft"></div>
-        </div>
+        </router-link>
       </div>
       <div class="weui-cells">
-        <div class="weui-cell weui-cell_access" id="scanCell">
+        <router-link
+          to="/explore/look"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-look.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">看一看</div>
           <div class="weui-cell__ft"></div>
-        </div>
-        <div class="weui-cell weui-cell_access">
+        </router-link>
+        <router-link
+          to="/explore/search"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-search.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">搜一搜</div>
           <div class="weui-cell__ft"></div>
-        </div>
+        </router-link>
       </div>
       <div class="weui-cells">
-        <div class="weui-cell weui-cell_access" id="scanCell">
+        <router-link
+          to="/explore/near"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-nearby.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">附近的人</div>
           <div class="weui-cell__ft"></div>
-        </div>
+        </router-link>
       </div>
 
       <div class="weui-cells">
@@ -85,22 +110,32 @@
           <div class="weui-cell__bd" style="line-height: 28px;">购物</div>
           <div class="weui-cell__ft"></div>
         </a>
-        <div class="weui-cell weui-cell_access">
+        <router-link
+          to="/explore/game"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-game.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">游戏</div>
            <div class="weui-cell__ft"></div>
-        </div>
+        </router-link>
       </div>
       <div class="weui-cells">
-        <div class="weui-cell weui-cell_access" id="scanCell">
+        <router-link
+          to="/explore/small"
+          class="weui-cell weui-cell_access"
+          tag="div"
+          v-on:click.native="momentNewMsg=false"
+        >
           <div class="weui-cell__hd">
             <img src="../../assets/images/find_icon-applets.png" />
           </div>
           <div class="weui-cell__bd" style="line-height: 28px;">小程序</div>
            <div class="weui-cell__ft"></div>
-        </div>
+        </router-link>
       </div>
     </section>
   </div>
